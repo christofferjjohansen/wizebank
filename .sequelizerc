@@ -1,6 +1,6 @@
 const path = require('path');
 
-export default {
+module.export = {
   "config": path.resolve('./server/db/config', 'config.js'),
   "models-path": path.resolve('./server/db/models'),
   "seeders-path": path.resolve('./server/db/seeders'),
